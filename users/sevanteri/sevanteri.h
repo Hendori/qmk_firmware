@@ -53,8 +53,8 @@ extern uint8_t tb_brightness;
 #define  MY_O  KC_O
 #define  MY_P  KC_P
 
-#define MY_A  LCTL_T(KC_A)
-#define MY_S  LSFT_T(KC_S)
+#define MY_A  KC_A
+#define MY_S  KC_S
 #define MY_D  KC_D
 #define MY_F  KC_F
 #define MY_G  KC_G
