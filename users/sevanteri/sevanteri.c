@@ -260,12 +260,12 @@ bool get_combo_must_tap(uint16_t combo_idx, combo_t* combo) { // {{{
 
 // custom combo terms {{{
 uint16_t get_combo_term(uint16_t index, combo_t *combo) {
-    if (KEYCODE_IS_MOD(combo->keycode)) return COMBO_MOD_TERM;
+    if (KEYCODE_IS_MOD(combo->keycode)) return COMBO_HOLD_TERM;
     /* if (get_combo_tap_only(index, combo)) return 20; */
 
     /* switch(combo->keycode) { */
     /*     case RESET: */
-    /*         return COMBO_MOD_TERM; */
+    /*         return COMBO_HOLD_TERM; */
     /* } */
 
     switch(index) {
@@ -287,6 +287,12 @@ uint16_t get_combo_term(uint16_t index, combo_t *combo) {
 // }}}
 
 bool get_combo_must_hold(uint16_t index, combo_t *combo) { // {{{
+    switch(index) {
+        case C_THUMB_CTL_SFT:
+        case C_THUMB_ALT_SFT:
+        case C_THUMB_ALT_CTL:
+            return true;
+    }
     switch(combo->keycode) {
         case RESET:
             return true;
