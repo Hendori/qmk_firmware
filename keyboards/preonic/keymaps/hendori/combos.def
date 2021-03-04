@@ -1,0 +1,8 @@
+//#include "combos/germ-vim-helpers.def"
+#include "combos/hendori-braces-helper.def"
+#include "combos/hendori-vim-helper.def"
+#include "combos/hendori-java-keywords.def"
+#include "combos/hendori-characters.def"
+#include "combos/hendori-tmux.def"
+#include "combos/hendori-mac.def"
+#include "combos/hendori-intellij.def"

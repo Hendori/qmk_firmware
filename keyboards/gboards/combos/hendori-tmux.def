@@ -1,0 +1,1 @@
+COMB(modTmux, LCTL(KC_A), KC_A, KC_S)

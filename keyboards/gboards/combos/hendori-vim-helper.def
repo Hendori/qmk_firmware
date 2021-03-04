@@ -1,0 +1,16 @@
+//Combos
+COMB(klenter, KC_ENTER, KC_K, KC_L)
+COMB(kdotcommaenter, KC_ENTER, KC_SCLN, KC_L)
+COMB(weTab, KC_TAB, KC_W, KC_E)
+COMB(sdEscape, KC_ESC, KC_S, KC_D)
+COMB(oiBackSpace, KC_BSPC, KC_O, KC_I)
+COMB(opBackSpace, KC_BSPC, KC_O, KC_P)
+COMB(jkSingleQuote, KC_QUOT, KC_K, KC_J)
+COMB(zxCtrl, KC_LCTL, KC_Z, KC_X)
+COMB(dotSlashCtrl, KC_LCTL, KC_DOT, KC_SLSH)
+COMB(xcAlt, KC_LALT, KC_C, KC_X)
+COMB(dotCommaAlt, KC_LALT, KC_DOT, KC_COMM)
+
+//Substitutions
+SUBS(saveVim, SS_TAP(X_ESC)":w"SS_TAP(X_ENTER), KC_S, KC_V)
+SUBS(openExplore, SS_TAP(X_ESC)":Explore"SS_TAP(X_ENTER), KC_O, KC_E)

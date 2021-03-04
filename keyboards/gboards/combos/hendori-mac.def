@@ -1,0 +1,1 @@
+COMB(makeScreenshot, LGUI(LSFT(KC_4)), KC_M, KC_S)

@@ -1,0 +1,3 @@
+COMB(aeAltEntm, LALT(KC_ENT), KC_A, KC_E)
+COMB(rfRefactor, LSFT(KC_F6), KC_R, KC_F)
+COMB(lwWord, LSFT(LCTL(KC_F)), KC_L, KC_W)
