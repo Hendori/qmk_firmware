@@ -3,7 +3,6 @@
 #include "combos/hendori-vim-helper.def"
 #include "combos/hendori-java-keywords.def"
 //#include "combos/hendori-characters.def"
-#include "combos/hendori-tmux.def"
 #include "combos/hendori-mac.def"
 #include "combos/hendori-intellij.def"
 #include "combos/hendori-numbers.def"
