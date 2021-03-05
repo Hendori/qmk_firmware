@@ -39,3 +39,6 @@
 //defining combo's
 #define COMBO_VARIABLE_LEN
 #define COMBO_TERM 50
+#define TAPPING_TERM 200
+#define IGNORE_MOD_TAP_INTERRUPT
+#define PERMISSIVE_HOLD
