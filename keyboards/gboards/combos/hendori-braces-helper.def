@@ -1,0 +1,7 @@
+SUBS(curlyBrackets, "{}"SS_TAP(X_LEFT), KC_C, KC_B)
+SUBS(squareBrackets, "[]"SS_TAP(X_LEFT), KC_S, KC_B)
+SUBS(roundBrackets, "()"SS_TAP(X_LEFT), KC_R, KC_B)
+SUBS(angleBrackets, "<>"SS_TAP(X_LEFT), KC_A, KC_B)
+SUBS(doubleQuotes, "\"\""SS_TAP(X_LEFT), KC_D, KC_Q)
+SUBS(singleQuotes, "\'\'"SS_TAP(X_LEFT), KC_S, KC_Q)
+
