@@ -1,7 +1,7 @@
 //Combos
 COMB(klenter, KC_ENTER, RALT_T(KC_K), RCTL_T(KC_L))
 COMB(kdotcommaenter, KC_ENTER, RSFT_T(KC_SCLN), RCTL_T(KC_L))
-COMB(weTab, KC_TAB, KC_W, KC_E)
+COMB(wrTab, KC_TAB, KC_W, KC_R)
 COMB(sdEscape, KC_ESC, LCTL_T(KC_S), LALT_T(KC_D))
 COMB(oiBackSpace, KC_BSPC, KC_O, KC_I)
 COMB(opBackSpace, KC_BSPC, KC_O, KC_P)
