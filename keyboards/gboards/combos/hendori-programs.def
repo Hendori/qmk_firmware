@@ -1,0 +1,8 @@
+SUBS(openIntellij,  SS_DOWN(X_LGUI)SS_TAP(X_SPC)SS_UP(X_LGUI)"intellij"SS_TAP(X_ENT) , KC_R, KC_I)
+SUBS(openIterm,  SS_DOWN(X_LGUI)SS_TAP(X_SPC)SS_UP(X_LGUI)"iterm"SS_TAP(X_ENT) , KC_O, KC_T)
+SUBS(openBrave,  SS_DOWN(X_LGUI)SS_TAP(X_SPC)SS_UP(X_LGUI)"Brave"SS_TAP(X_ENT) , KC_O, KC_B)
+SUBS(openTeams,  SS_DOWN(X_LGUI)SS_TAP(X_SPC)SS_UP(X_LGUI)"Microsoft teams"SS_TAP(X_ENT) , KC_O, KC_N)
+SUBS(openDiscord,  SS_DOWN(X_LGUI)SS_TAP(X_SPC)SS_UP(X_LGUI)"discord.app"SS_TAP(X_ENT) , KC_O, KC_D)
+SUBS(openSkim,  SS_DOWN(X_LGUI)SS_TAP(X_SPC)SS_UP(X_LGUI)"Skim.app"SS_TAP(X_ENT) , KC_O, LCTL_T(KC_S))
+SUBS(openGoogle,  SS_DOWN(X_LGUI)SS_TAP(X_SPC)SS_UP(X_LGUI)"Google Chrome.app"SS_TAP(X_ENT) , KC_O, KC_G)
+SUBS(openMail,  SS_DOWN(X_LGUI)SS_TAP(X_SPC)SS_UP(X_LGUI)"mail.app"SS_TAP(X_ENT) , KC_O, KC_M)
